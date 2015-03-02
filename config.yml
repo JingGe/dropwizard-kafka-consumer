@@ -1,0 +1,11 @@
+messageHandlerConfig:
+  number: 1
+
+kafkaConfig:
+  topic: test
+  zookeeperConnect: localhost:2181
+  groupId: testGroup
+  zookeeperSessionTimeout: 5000
+  zookeeperSyncTime: 250
+  autoCommitInterval: 1000
+
